@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
+  <div>
+    <div>sss</div>
+    <Clock class="clock"/>
+  </div>
+  <!-- <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld/>
-  </div>
+  </div> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
+import Clock from "@/components/Clock"
 export default {
-  name: 'App',
   components: {
-    HelloWorld,
+    Clock,
   },
-};
+}
+// import HelloWorld from './components/HelloWorld';
+
+// export default {
+//   name: 'App',
+//   components: {
+//     HelloWorld,
+//   },
+// };
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 </style>
